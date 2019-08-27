@@ -13,7 +13,21 @@ public class removeConflict {
 
 		int c = a + b;
 
+
 		System.out.println("Dear Mohsin Value of addition is:" +c );
+
+
+		System.out.println("Value of addition is:" +c);
+
+		setMessage1();
+
+	}
+
+
+	public static void setMessage1() {
+
+		System.out.println("Resolve Merge conflict in GIT");
+		
 
 		setMessage();
 
@@ -22,6 +36,8 @@ public class removeConflict {
 	public static void setMessage() {
 
 		System.out.println("Test message to resolve Merge conflict in GIT");
+
 	}
+
 
 }
